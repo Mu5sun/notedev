@@ -121,10 +121,6 @@
           v-if="isLight === false"
         >🌙</ion-icon>
       </div>
-      <a class="author duration-300 w-9 h-9 rounded-2xl flex justify-around" href="https://github.com/thuongtruong1009/notedev/fork">
-        <p class="hidden ml-1.1 mt-2.5">view source code</p>
-        <ion-icon class="w-9 h-9" name="logo-github"></ion-icon>
-      </a>
     </div>
   </div>
 </template>
