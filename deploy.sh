@@ -17,9 +17,9 @@ git add -A
 git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io
-git push -f git@github.com:Mu5sun/Mu5sun.github.io.git main
+#git push -f git@github.com:Mu5sun/Mu5sun.github.io.git main:git-pages
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+git push -f git@github.com:Mu5sun/notedev.git master:gh-pages
 
 cd -
